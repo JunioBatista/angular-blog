@@ -7,13 +7,24 @@
 <div class="container__articles">
 
     <div class="articles__main">
-        <app-big-card></app-big-card>
+
+        <app-big-card 
+            coverPhoto="https://picsum.photos/seed/picsum/600/350"
+            cardTitle="Travel to the mountains"
+            cardDescription="Now is available a new way to trip around the mountains in canadá, this is a new government program that allows people do that."
+        ></app-big-card>
+
+
     </div>
     
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <div *ngFor="let news of newsList">
+            <app-small-card
+                coverPhoto="{{news.coverPhoto}}"
+                cardtitle="{{news.title}}"
+            >
+            </app-small-card>
+        </div>
     </div>
 
 </div>
