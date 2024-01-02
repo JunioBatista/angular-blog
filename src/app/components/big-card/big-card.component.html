@@ -7,7 +7,7 @@
         <img src="" alt="">
     </div>
     <div class="big-card__title">
-        <h1><a href="https://googe.com">{{cardTitle}}</a></h1>
+        <h1><a [routerLink]="['/content', id]" routerLinkActive="router-link-active" >{{cardTitle}}</a></h1>
     </div>
     <div class="big-card__description">
         <p>

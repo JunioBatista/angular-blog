@@ -1,7 +1,3 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
-
 <app-menu-title></app-menu-title>
 
 <div class="container__articles">
@@ -9,6 +5,7 @@
     <div class="articles__main">
 
         <app-big-card 
+            id="1"
             coverPhoto="https://picsum.photos/seed/picsum/600/350"
             cardTitle="Travel to the mountains"
             cardDescription="Now is available a new way to trip around the mountains in canadá, this is a new government program that allows people do that."
@@ -20,6 +17,7 @@
     <div class="articles__others">
         <div *ngFor="let news of newsList">
             <app-small-card
+                id="{{news.id}}"
                 coverPhoto="{{news.coverPhoto}}"
                 cardtitle="{{news.title}}"
             >

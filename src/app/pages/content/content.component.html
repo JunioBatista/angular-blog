@@ -1,0 +1,18 @@
+<div class="container__content">
+    <div class="content__cover">
+        <img 
+            src=   "{{article?.coverPhoto}}" 
+            alt=""
+        >
+    </div>
+
+    <div class="small-card__title">
+        <h1><a> {{article?.title}}</a></h1> 
+        <hr/>
+    </div>
+    <div class="content__description">
+        <a [routerLink]="['']"> << Voltar</a>
+        <p>Próximo >></p>
+    </div>
+
+</div>
