@@ -2,6 +2,9 @@
 
 Este projeto foi criado com o objetivo de aprimorar e praticar as bases do framework Angular. Utilizando as principais funcionalidades e melhores práticas do Angular, este repositório serve como um espaço de aprendizado contínuo e desenvolvimento de habilidades no ecossistema Angular.
 
+![image](https://github.com/JunioBatista/angular-blog/assets/89329137/3db2a1f2-5828-4e48-8670-b64674d9f3e1)
+
+
 ## Objetivos do Projeto
 
 - Aprofundar o entendimento sobre componentes, diretivas rotas e outras bases do Angular.
