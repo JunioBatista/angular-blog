@@ -1,4 +1,4 @@
-# Projeto Angular de Aprimoramento
+#  AngularBlog
 
 Este projeto foi criado com o objetivo de aprimorar e praticar as bases do framework Angular. Utilizando as principais funcionalidades e melhores práticas do Angular, este repositório serve como um espaço de aprendizado contínuo e desenvolvimento de habilidades no ecossistema Angular.
 
